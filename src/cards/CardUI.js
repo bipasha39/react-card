@@ -1,9 +1,9 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import "./cards-style.css"
+import "./cards-style.css";
 
-const Card = props => {
- let history = useHistory()
+const Card = (props) => {
+  let history = useHistory();
   function handleClick(e) {
     history.push("/weightLoss");
     e.preventDefault();
@@ -11,15 +11,13 @@ const Card = props => {
   }
 
   return (
-    <div className="card text-center">
+    <div className="card">
       <div className="overflow">
-        <img src={props.img} alt="water" className="card-img-top"/>
+        <img src={props.img} alt="water" className="card-img-top" />
       </div>
       <div className="card-body text-dark">
         <h4 className="card-tittle">{props.tittle}</h4>
-        <p className="card-text text-secondary">
-          {props.description}
-        </p>
+        <p className="card-text text-secondary">{props.description}</p>
         <a href="#" onClick={handleClick} className="btn btn-outline">
           Read More
         </a>

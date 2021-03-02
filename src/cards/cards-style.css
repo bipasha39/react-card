@@ -1,15 +1,15 @@
-.body{
-    background-color: black;
-};
 
 .heading{
-   font-weight: 400;
-}
+    font-weight: 400;
+    color:white;
+  }
 .card{
     width: 20rem;
+    height: 400px;
+    
 }
 .row{
-    justify-content: center;
+    justify-items:center ;
 }
 .card:hover{
     box-shadow:5px 10px 20px 1px blueviolet;
@@ -22,7 +22,7 @@
     font-size: .9rem;
     padding: .4rem;
 }
-.container-fluid{
+.container{
     padding-top: 6rem;
     padding-bottom: 6rem;
 }

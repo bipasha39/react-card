@@ -8,8 +8,8 @@ import { Route } from "react-router-dom";
 class Cards extends Component {
   render() {
     return (
-      <div container-fluid d-flex justify-content-center>
-        <h1 className="heading">Did You Ever Noticed</h1>
+      <div className="container">
+          <h1 className="heading">Did You Ever Noticed</h1>
         <div className="row">
           <div className="col-md-4">
             <Card
@@ -22,7 +22,7 @@ class Cards extends Component {
             <Card
               img={img2}
               tittle="Master of Well-being is Water "
-              description="Water is an inorganic, transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's hydrosphere and the fluids of all known living organisms. It is vital for all known forms of life, even though it provides no calories or organic nutrients"
+              description="Water is an inorganic, transparent, tasteless, odorless, and nearly colorless chemical substance"
             />
           </div>
           <div className="col-md-4">

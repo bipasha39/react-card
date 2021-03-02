@@ -1,0 +1,13 @@
+.main{
+    justify-content: center;
+    background-color:white;
+    min-height: 100vh;
+    background-image:url() ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    text-align: left; 
+
+}
