@@ -3,6 +3,9 @@
     font-weight: 400;
     color:white;
   }
+  .headline{
+      padding-bottom: 35px;
+  }
 .card{
     width: 20rem;
     height: 400px;

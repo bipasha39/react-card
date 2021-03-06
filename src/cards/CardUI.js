@@ -5,9 +5,8 @@ import "./cards-style.css";
 const Card = (props) => {
   let history = useHistory();
   function handleClick(e) {
-    history.push("/weightLoss");
+    history.push(props.redirectTo);
     e.preventDefault();
-    // console.log('The link was clicked.');
   }
 
   return (
